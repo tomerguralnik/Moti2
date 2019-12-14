@@ -5,5 +5,7 @@ python:
 install:
   -pip install -r requirements.txt
 
+variables:
+  CODECOV_TIKEN="3aaff768-c417-40bc-b3a2-73d4a68ecb70"
 script:
   -pytest
